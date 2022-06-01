@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.fondo-nav{
+    background-color:#272727 ;
+}
+
+.carousel {
+    margin: 20px;
+    height: 600px;
+    
+}
+
+.row{
+    height: 500px;
+}
+
+.BtnCarrito{
+    background-color: rgba(26, 174, 49, 1);
+    border: none;
+
+}   
+
+.card{
+    margin: 10px
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background-color:  #272727;
+}
+
+h3{
+    padding: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.Barra{
+    width: 80%;
+}
+
+#barra{
+    width: 100%;
+}
