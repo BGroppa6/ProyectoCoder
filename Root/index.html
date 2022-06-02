@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/c71622820e.js" crossorigin="anonymous"></script>
     <title>Bootstrap</title>
 
 </head>
@@ -18,8 +19,8 @@
 
     <nav class="navbar navbar-expand-md navbar-dark fondo-nav">
         <!-- Logo -->
-        <a class="navbar-brand" href="#">Logo de la empresa</a>
-        <form  class="form-inline Barra" action="/action_page.php">
+        <a class="navbar-brand logo" href="#">Logo de la empresa</a>
+        <form class="form-inline Barra" action="/action_page.php">
             <input id="barra" class="form-control mr-sm-2" type="text" placeholder="Busqueda">
 
         </form>
@@ -29,19 +30,17 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
+
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class=" navbar-nav">
+            <ul class=" navbar-nav text-center">
                 <li>
-                    <a class="nav-link" href=""></i>Inicio</a>
+                    <a class="nav-link" href="carrito.html"><i class="fa-solid fa-cart-shopping"></i>Carrito</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="carrito.html"></i>Carrito</a>
+                    <a class="nav-link" href=""><i class="fa-solid fa-user"></i>Perfil</a>
                 </li>
                 <li>
-                    <a class="nav-link" href=""></i>Perfil</a>
-                </li>
-                <li>
-                    <a class="nav-link" href=""></i>Ajustes</a>
+                    <a class="nav-link" href=""><i class="fa-solid fa-gear"></i>Ajustes</a>
                 </li>
             </ul>
         </div>
@@ -85,88 +84,120 @@
         </a>
     </div>
 
-    <h2>Ofertas</h2>
-    <!-- productos inicia -->
-    <div class="container-fluid">
-        <div class="row">
+    <!-- slide finaliza -->
 
 
+    <main>
 
-            <!-- card inicia  -->
-            <div class="card col-md-2" style="width:400px">
-                <img class="card-img-top" src="img/61z8EVo52YL._AC_SL1500_.jpg" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title">Buzo verde</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi architecto
-                        sunt repudiandae unde quaerat voluptate eos. Odio tempore</p>
-                    <a href="#" class="btn btn-primary BtnCarrito">Añadir al carrito</a>
+        <!-- titulo -->
+        <h2>Ofertas de la semana</h2>
+        <!-- finaliza titulo  -->
+
+        <div class="container-fluid">
+            <div class="row">
+
+            <!-- side inicia -->
+
+                <div class="row align-items-center col-md-1 side">
+                    <div class="col-md-1">
+                        <div class="col">
+                            <i class="fa-solid fa-tag"></i>
+                            <p>Descuentos</p>
+                        </div>
+                        <div class="col">
+                            <i class="fa-solid fa-shirt"></i>
+                            <p>Remeras</p>
+                        </div>
+                        <div class="col">
+                            <i class="fa-solid fa-bread-slice"></i>
+                            <p>Buzos</p>
+                        </div>
+                        <div class="col">
+                            <i class="fa-solid fa-hat-cowboy"></i>
+                            <p>Gorras</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- card finaliza -->
+            <!-- side finaliza -->
 
 
-            <!-- card inicia -->
-            <div class="card col-md-2" style="width:400px">
-                <img class="card-img-top" src="img/61z8EVo52YL._AC_SL1500_.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">Buzo verde</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi architecto
-                        sunt repudiandae unde quaerat voluptate eos. Odio tempore</p>
-                    <a href="#" class="btn btn-primary BtnCarrito">Añadir al carrito</a>
+            <!-- productos inicia -->
+
+                <!-- card inicia  -->
+
+                <div class="card col-sm-3 col-md-4 col-lg-2 " style="width:400px">
+                    <img class="card-img-top" src="img/61z8EVo52YL._AC_SL1500_.jpg" alt="Card image">
+                    <div class="card-body TextCard">
+                        <h4 class="card-title">Buzo verde</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi architecto
+                            sunt repudiandae unde quaerat voluptate eos. Odio tempore</p>
+                        <a href="#" class="btn btn-primary BtnCarrito">Añadir al carrito</a>
+                    </div>
                 </div>
-            </div>
-            <!-- card finaliza -->
+                <!-- card finaliza -->
 
-            <!-- card inicia -->
-            <div class="card col-md-2" style="width:400px">
-                <img class="card-img-top" src="img/61z8EVo52YL._AC_SL1500_.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">Buzo verde</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi architecto
-                        sunt repudiandae unde quaerat voluptate eos. Odio tempore</p>
-                    <a href="#" class="btn btn-primary BtnCarrito">Añadir al carrito</a>
+
+                <!-- card inicia -->
+                <div class="card col-sm-3 col-md-4 col-lg-2" style="width:400px">
+                    <img class="card-img-top" src="img/61z8EVo52YL._AC_SL1500_.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body TextCard">
+                        <h4 class="card-title">Buzo verde</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi architecto
+                            sunt repudiandae unde quaerat voluptate eos. Odio tempore</p>
+                        <a href="#" class="btn btn-primary BtnCarrito">Añadir al carrito</a>
+                    </div>
                 </div>
-            </div>
-            <!-- card finaliza -->
+                <!-- card finaliza -->
 
-            <!-- card inicia -->
-            <div class="card col-md-2" style="width:400px">
-                <img class="card-img-top" src="img/61z8EVo52YL._AC_SL1500_.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">Buzo verde</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi architecto
-                        sunt repudiandae unde quaerat voluptate eos. Odio tempore</p>
-                    <a href="#" class="btn btn-primary BtnCarrito">Añadir al carrito</a>
+                <!-- card inicia -->
+                <div class="card col-sm-3 col-md-4 col-lg-2 cardsm" style="width:400px">
+                    <img class="card-img-top" src="img/61z8EVo52YL._AC_SL1500_.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body TextCard">
+                        <h4 class="card-title">Buzo verde</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi architecto
+                            sunt repudiandae unde quaerat voluptate eos. Odio tempore</p>
+                        <a href="#" class="btn btn-primary BtnCarrito">Añadir al carrito</a>
+                    </div>
                 </div>
-            </div>
-            <!-- card finaliza -->
-            <!-- inicia footer -->
+                <!-- card finaliza -->
 
-            <footer>
-                <h3>Envíos gratis superando los $8.000</h3>
-                <h3>Todos los métodos de pago</h3>
-            </footer>
+                <!-- card inicia -->
+                <div class="card col-sm-2 col-md-4 col-lg-2 cardsm" style="width:400px">
+                    <img class="card-img-top" src="img/61z8EVo52YL._AC_SL1500_.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body TextCard">
+                        <h4 class="card-title">Buzo verde</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi architecto
+                            sunt repudiandae unde quaerat voluptate eos. Odio tempore</p>
+                        <a href="#" class="btn btn-primary BtnCarrito">Añadir al carrito</a>
+                    </div>
+                </div>
+                <!-- card finaliza -->
+                
+            <!-- productos finaliza -->
 
-            <!-- finaliza footer  -->
-        </div>
+    </main>
 
-        <!-- productos finaliza -->
+    <!-- inicia footer -->
+    <footer class="d-flex justify-content-center text-center">
+        <h3>Envíos gratis superando los $8.000</h3>
+        <i class="fa-solid fa-truck-fast"></i>
+        <h3>Todos los métodos de pago</h3>
+        <i class="fa-brands fa-cc-visa"></i>
+    </footer>
+    <!-- finaliza footer  -->
+    
 
 
 
-
-        <!-- SLIDE - fin -->
-
-
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
-            integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
-        </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
